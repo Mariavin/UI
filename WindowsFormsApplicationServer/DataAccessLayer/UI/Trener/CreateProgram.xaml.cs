@@ -63,13 +63,14 @@ namespace WpfApplication1.UI.Trener
 
             //    var tren = new Trenirovka
             //    {
-            //        Id_training = id_training;
-            //        Id_trener = id_trener;
-            //        Id_programm = id_programm;
-            //        time = time;
-            //        name = Name;
-            //};
-            //TrenService.AddTren(tren);
+            //        Id_training = Id_training,
+            //        Id_trener = Id_trener,
+            //        Id_programm = id_programm,
+            //        time = time,
+            //        name = Name
+            //    };
+            //    TrenService.AddTren(tren);
+            //}
         }
     }
 }

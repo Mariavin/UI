@@ -14,6 +14,6 @@ namespace WindowsFormsApplicationServer.DataAccessLayer.Model
             Programm = programm;
         }
         public List<Programm> Programm;
-        public string test;
+        
     }
 }
