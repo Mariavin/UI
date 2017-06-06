@@ -1,0 +1,44 @@
+﻿<Window x:Name="addd"
+        x:Class="WpfApplication1.UI.AddingProgram"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1.UI"
+        mc:Ignorable="d"
+        Title="AddingProgram" Height="288" Width="447.821">
+    <Grid Margin="0,0,2,7">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="20" Margin="19,95,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="21" Margin="21,139,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.418"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="76" Margin="174,98,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="button" Content="Добавить курс" HorizontalAlignment="Left" Margin="273,180,0,0" VerticalAlignment="Top" Width="136" Height="24" Click="button_Click" Background="CornflowerBlue"/>
+        <Label x:Name="label1" Content="Наименование " HorizontalAlignment="Left" Margin="19,69,0,0" VerticalAlignment="Top" Height="26" Width="107" RenderTransformOrigin="0.542,1.381" FontStyle="Italic"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="17,34,0,0" VerticalAlignment="Top" Width="120" Height="24" />
+        <Label x:Name="label" Content="Курс" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top" Width="120" FontStyle="Italic"/>
+        <Label x:Name="label2" Content="Цена" HorizontalAlignment="Left" Margin="19,115,0,0" VerticalAlignment="Top" FontStyle="Italic" Width="118" Height="28"/>
+        <Label x:Name="label3" Content="Описание" HorizontalAlignment="Left" Margin="174,69,0,0" VerticalAlignment="Top" Width="103" FontStyle="Italic"/>
+        <Button x:Name="button1" Content="Перейти к программам" HorizontalAlignment="Left" Margin="273,209,0,0" VerticalAlignment="Top" Width="136" Click="button1_Click" Height="22" Background="CornflowerBlue"/>
+
+    </Grid>
+</Window>

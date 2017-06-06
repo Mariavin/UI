@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApplication1.UI.ClientPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1.UI"
+        mc:Ignorable="d"
+        Title="ClientPanel" Height="205" Width="200.941">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="73*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="Личный дневник" HorizontalAlignment="Left" Margin="20,23,0,0" VerticalAlignment="Top" Width="117" Height="30"/>
+        <Button x:Name="button1" Content="Мои курсы" HorizontalAlignment="Left" Margin="20,58,0,0" VerticalAlignment="Top" Width="117" Height="30"/>
+        <Button x:Name="button2" Content="Открыть все курсы" HorizontalAlignment="Left" Margin="20,93,0,0" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-0.68,0.15" Height="30"/>
+
+    </Grid>
+</Window>
